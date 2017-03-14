@@ -13,6 +13,9 @@
 		DC1752BA1E77C7EA00FFB69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1752B81E77C7EA00FFB69D /* Main.storyboard */; };
 		DC1752BC1E77C7EA00FFB69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1752BB1E77C7EA00FFB69D /* Assets.xcassets */; };
 		DC1752BF1E77C7EA00FFB69D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1752BD1E77C7EA00FFB69D /* LaunchScreen.storyboard */; };
+		DC1752CC1E77C89B00FFB69D /* SpaceBarAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1752CB1E77C89B00FFB69D /* SpaceBarAdapter.m */; };
+		DC1752CF1E77C9B900FFB69D /* SpaceBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1752CE1E77C9B900FFB69D /* SpaceBar.m */; };
+		DC1752D21E77D1C900FFB69D /* QButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1752D11E77D1C900FFB69D /* QButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		DC1752BB1E77C7EA00FFB69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC1752BE1E77C7EA00FFB69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1752C01E77C7EA00FFB69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1752C91E77C82B00FFB69D /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		DC1752CA1E77C89B00FFB69D /* SpaceBarAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceBarAdapter.h; sourceTree = "<group>"; };
+		DC1752CB1E77C89B00FFB69D /* SpaceBarAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceBarAdapter.m; sourceTree = "<group>"; };
+		DC1752CD1E77C9B900FFB69D /* SpaceBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceBar.h; sourceTree = "<group>"; };
+		DC1752CE1E77C9B900FFB69D /* SpaceBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceBar.m; sourceTree = "<group>"; };
+		DC1752D01E77D1C900FFB69D /* QButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QButton.h; sourceTree = "<group>"; };
+		DC1752D11E77D1C900FFB69D /* QButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,13 @@
 		DC1752A31E77C7EA00FFB69D = {
 			isa = PBXGroup;
 			children = (
+				DC1752D01E77D1C900FFB69D /* QButton.h */,
+				DC1752D11E77D1C900FFB69D /* QButton.m */,
+				DC1752CD1E77C9B900FFB69D /* SpaceBar.h */,
+				DC1752CE1E77C9B900FFB69D /* SpaceBar.m */,
+				DC1752CA1E77C89B00FFB69D /* SpaceBarAdapter.h */,
+				DC1752CB1E77C89B00FFB69D /* SpaceBarAdapter.m */,
+				DC1752C91E77C82B00FFB69D /* Target.h */,
 				DC1752AE1E77C7EA00FFB69D /* AdapterPattern */,
 				DC1752AD1E77C7EA00FFB69D /* Products */,
 			);
@@ -153,7 +170,10 @@
 			files = (
 				DC1752B71E77C7EA00FFB69D /* ViewController.m in Sources */,
 				DC1752B41E77C7EA00FFB69D /* AppDelegate.m in Sources */,
+				DC1752CF1E77C9B900FFB69D /* SpaceBar.m in Sources */,
 				DC1752B11E77C7EA00FFB69D /* main.m in Sources */,
+				DC1752CC1E77C89B00FFB69D /* SpaceBarAdapter.m in Sources */,
+				DC1752D21E77D1C900FFB69D /* QButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
